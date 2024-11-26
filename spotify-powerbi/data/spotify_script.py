@@ -50,8 +50,8 @@ image_url = json_data['album']['images'][0]['url']
 return image_url
 
 # Your Spotify API Credentials
-client_id = 'your_client_id'
-client_secret = 'your_client_secret'
+client_id = 'bc5f9c18812f40009c464abe6e83c70c'
+client_secret = '88d887ebc4944dea9ee33c07c67c902c'
 
 # Get Access Token
 access_token = get_spotify_token(client_id, client_secret)
